@@ -1,0 +1,24 @@
+{
+  "current_cgpa": 3.7,
+  "semester_gpa": 3.8,
+  "semester_name": "Spring 2024",
+  "total_credits": 72,
+  "class_rank": 15,
+  "class_size": 120,
+  "target_cgpa": 3.8,
+  "cgpa_progress": 92.5,
+  "semesters": [
+    { "name": "Spring 2024", "credits": 18, "gpa": 3.8 },
+    { "name": "Fall 2023", "credits": 15, "gpa": 3.6 },
+    { "name": "Spring 2023", "credits": 18, "gpa": 3.7 },
+    { "name": "Fall 2022", "credits": 15, "gpa": 3.9 },
+    { "name": "Spring 2022", "credits": 6, "gpa": 3.5 }
+  ],
+  "grades": [
+    { "grade": "A", "count": 5 },
+    { "grade": "A-", "count": 4 },
+    { "grade": "B+", "count": 3 },
+    { "grade": "B", "count": 2 },
+    { "grade": "B-", "count": 1 }
+  ]
+}

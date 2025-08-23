@@ -1,0 +1,6 @@
+[
+  {"id": "A1", "course_id": "CS101", "title": "Linked List Project", "status": "Completed"},
+  {"id": "A2", "course_id": "PY301", "title": "ML Report", "status": "Ongoing"},
+    {"id": "A3", "course_id": "P3301", "title": "se Report", "status": "Ongoing"}
+
+]

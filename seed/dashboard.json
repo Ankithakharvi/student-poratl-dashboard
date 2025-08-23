@@ -1,0 +1,46 @@
+{
+  "personal": {
+    "name": "Ankitha Kharvi",
+    "id": "21CS101",
+    "phone": "+91-9876543210",
+    "email": "ankitha.k@example.com",
+    "encoder": "John Doe"
+  },
+  "guardian": {
+    "name": "Ramesh Kharvi",
+    "email": "ramesh.k@example.com",
+    "phone": "+91-9876543211",
+    "alt_email": "alt.ramesh@example.com",
+    "address": "Karwar, Karnataka"
+  },
+  "degree": {
+    "program": "B.Tech",
+    "discipline": "Computer Science",
+    "join_date": "2021-08-01",
+    "completion": "2025-05-30",
+    "status": "Active"
+  },
+  "notifications": [
+    {
+      "type": "Exam Scheduled",
+      "desc": "Mid-semester exams start next week",
+      "date": "2025-08-20",
+      "icon": "📢",
+      "color": "blue"
+    },
+    {
+      "type": "Fee Reminder",
+      "desc": "2nd installment due soon",
+      "date": "2025-09-05",
+      "icon": "💰",
+      "color": "red"
+    }
+  ],
+  "transfer": {
+    "id": "TRF123",
+    "type": "Inter-department",
+    "status": "Approved",
+    "credits": 12,
+    "date": "2025-07-15"
+  }
+}

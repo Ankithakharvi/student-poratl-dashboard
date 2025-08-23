@@ -1,0 +1,53 @@
+{
+  "personal": {
+    "name": "John Doe",
+    "id": "STU12345",
+    "phone": "+1 234-567-8901",
+    "email": "john.doe@university.edu",
+    "encoder": "E123"
+  },
+  "guardian": {
+    "name": "Robert Doe",
+    "email": "robert.doe@email.com",
+    "phone": "+1 987-654-3210",
+    "alt_email": "r.doe.backup@email.com",
+    "address": "123 Guardian Ave, City, State 12345"
+  },
+  "degree": {
+    "program": "Bachelor of Technology (B.Tech)",
+    "discipline": "Computer Science & Engineering",
+    "join_date": "August 15, 2022",
+    "completion": "May 2026",
+    "status": "Active"
+  },
+  "notifications": [
+    {
+      "type": "Fee Payment Due",
+      "desc": "Last date for fee payment:",
+      "date": "December 15, 2023",
+      "icon": "💰",
+      "color": "red"
+    },
+    {
+      "type": "Certificate Upload",
+      "desc": "Upload status:",
+      "date": "Completed",
+      "icon": "📄",
+      "color": "green"
+    },
+    {
+      "type": "Grade Submission",
+      "desc": "Grades will be published on:",
+      "date": "January 5, 2024",
+      "icon": "📊",
+      "color": "blue"
+    }
+  ],
+  "transfer": {
+    "id": "TRF78901",
+    "type": "Credit Transfer",
+    "status": "Approved",
+    "credits": 6,
+    "date": "October 10, 2023"
+  }
+}

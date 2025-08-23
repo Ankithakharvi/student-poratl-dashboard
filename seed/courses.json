@@ -1,0 +1,5 @@
+[
+  {"id": "CS101", "name": "Data Structures", "credits": 4, "grade": "A", "grade_points": 9},
+  {"id": "MA201", "name": "Linear Algebra", "credits": 3, "grade": "B+", "grade_points": 8},
+  {"id": "PY301", "name": "Machine Learning", "credits": 4, "grade": "A", "grade_points": 10}
+]
