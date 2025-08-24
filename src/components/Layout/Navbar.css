@@ -1,0 +1,172 @@
+/* 🌌 Futuristic Neon Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 120px;
+  padding: 0 25px;
+  background: #0f0f1a;
+  box-shadow: 0 0 15px #00CFFF;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #00CFFF;
+  box-shadow: 0 0 10px #00CFFF;
+}
+
+.logo-container h2 {
+  font-size: 20px;
+  color: #00CFFF;
+  text-shadow: 0 0 8px #00CFFF;
+}
+
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+  color: #aaa;
+  margin-top: 80px;
+ 
+ }
+
+
+ .home-icon-container {
+  display: flex;
+  align-items: center;
+  gap: 8px; /* space between icon and text */
+}
+
+.home-icon svg {
+  width: 20px;
+  height: 20px;
+  color: #00CFFF;
+  margin: 0; /* remove the negative margin */
+}
+
+ 
+
+.home-icon-container .home-icon svg {
+  width: 29px;
+  height: 29px;
+  color: #00CFFF;
+ 
+  margin-top: 10px;
+ 
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Hover effect for breadcrumb (optional) */
+.breadcrumb span:hover {
+  color: #00CFFF;
+  text-shadow: 0 0 5px #00CFFF;
+  cursor: default;
+}
+@media (max-width: 992px) {
+  .navbar {
+    height: 100px;
+    padding: 0 15px;
+  }
+
+  .logo-container h2 {
+    font-size: 18px;
+  }
+
+  .breadcrumb {
+    font-size: 13px;
+  }
+}
+
+/* Mobile screens */
+@media (max-width: 768px) {
+  .navbar {
+    height: auto;
+    flex-direction: column;
+    padding: 10px 15px;
+    align-items: flex-start;
+  }
+
+  .navbar-left {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .logo-container h2 {
+    font-size: 16px;
+  }
+
+  .breadcrumb {
+    margin-top: 8px;
+    font-size: 12px;
+    flex-wrap: wrap;
+  }
+
+  .home-icon svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .navbar-right {
+    margin-top: 8px;
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
+/* Very small devices */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 8px 10px;
+  }
+
+  .logo-container h2 {
+    font-size: 14px;
+  }
+
+  .navbar-logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .breadcrumb {
+    font-size: 11px;
+    gap: 4px;
+  }
+
+  .home-icon svg {
+    width: 16px;
+    height: 16px;
+  }
+
+  .navbar-right {
+    gap: 10px;
+  }
+}
